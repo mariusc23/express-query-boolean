@@ -1,7 +1,6 @@
 'use strict';
 
 var parser = require('../lib/parse');
-var moment = require('moment');
 
 /*
   ======== A Handy Little Nodeunit Reference ========
