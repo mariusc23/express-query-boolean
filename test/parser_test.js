@@ -89,6 +89,28 @@ exports.parser = {
     );
 
     test.done();
+  },
+
+  array: function(test) {
+    test.deepEqual(
+      parser({
+        array: [
+          { a: 'true' },
+          { b: 'false' },
+          { c: 'test' },
+        ],
+      }),
+      {
+        array: [
+          { a: true },
+          { b: false },
+          { c: 'test' },
+        ],
+      },
+      'Recursively parses array.'
+    );
+
+    test.done();
   }
 
 };
