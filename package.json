@@ -1,6 +1,6 @@
 {
   "name": "express-query-boolean",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Convert query strings to dates for express/connect applications.",
   "main": "index.js",
   "directories": {
