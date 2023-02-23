@@ -3,6 +3,7 @@
   "version": "2.0.0",
   "description": "Convert query strings to dates for express/connect applications.",
   "main": "index.js",
+  "types": "index.d.ts",
   "directories": {
     "test": "test"
   },
