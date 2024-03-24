@@ -1,7 +1,7 @@
 express-query-boolean
 ==================
 
-> Convert query strings to dates for express/connect applications.
+> Parse booleans in req.query for express/connect applications.
 
 [![npm](https://img.shields.io/npm/v/express-query-boolean.svg)](https://www.npmjs.com/package/express-query-boolean)
 [![build status](https://travis-ci.org/mariusc23/express-query-boolean.svg)](https://travis-ci.org/mariusc23/express-query-boolean)
